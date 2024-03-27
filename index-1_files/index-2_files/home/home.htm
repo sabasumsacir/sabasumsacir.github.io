@@ -389,8 +389,8 @@ function toPersianDate(date) {
   const day = date.getDate();
 
   // تبدیل تاریخ میلادی به شمسی
-  const persianYear = year - 622;
-  const persianMonth = month < 3 ? month + 9 : month - 3;
+  const persianYear = year - 621;
+  const persianMonth = month < 3 ? month + 9 : month - 2;
   const persianDay = day < 21 ? day + 11 : day - 20;
 
   // اضافه کردن صفر قبل از اعداد تک رقمی
